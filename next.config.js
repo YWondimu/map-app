@@ -2,7 +2,7 @@
 const nextConfig = {
     //not really sure what these do
     output: 'export',
-    distDir: 'dist',
+    distDir: 'docs',
     images: {
         unoptimized: true,
     },
