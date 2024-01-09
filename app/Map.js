@@ -12,7 +12,10 @@ export default function Map({currentUrl, zoom}) {
                 // animate={{scale: 1}}
                 animate={{scale: zoom}}
             >
+                <motion.div drag>
                 <img src={currentUrl} alt='' className='image' />
+                </motion.div>
+                {/* <img src={currentUrl} alt='' /> */}
             </motion.div>
         </div>
     );

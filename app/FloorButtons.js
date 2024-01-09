@@ -46,11 +46,13 @@ export default function FloorButtons({floorNames, sourceFiles, changeFloor, isDr
                 }
                 }}
             > */}
+                <motion.div drag>
                 <div className='button-container'>
                     {/* <div className='button-list'> */}
                         {buttons}
                     {/* </div> */}
                 </div>
+                </motion.div>
             {/* </motion.div> */}
         </>
     );
